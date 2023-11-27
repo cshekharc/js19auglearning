@@ -16,17 +16,56 @@
 // newarr.unshift(1)
 // console.log(newarr)
 
-//object 
+//literal object 
 
-let student = {
-    rollNo: 10,
-    firstName: 'Student',
-    lastName: 'Studentlastname'
-}
+// let student = {
+//     rollNo: 10,
+//     firstName: 'Shekhar',
+//     lastName: 'C',
+//     objectFunction : function(){
+//         console.log("this function is in object")
+//     },
+//     totalMarks : 70 
+// }
 
-console.log(student)
-console.log(typeof student)
+// student.objectFunction()
 
-console.log(student.rollNo)
-console.log(student.lastName)
+// student.std = 9 // add
+// student.div = 'B'
+// student.lastName = 'choudhari'
 
+// console.log(student)
+
+// delete student.div
+// delete student.totalMarks
+
+// console.log(student)
+
+// functions  - 1. direct executions 2. return the logic or result
+// function hello(){
+//     console.log('Hello everyone')
+// }
+// hello()
+// console.log(typeof hello)
+
+// function add(a, b){
+//     return a+b
+// }
+// console.log(add(10,20))
+// console.log(typeof add)
+
+// let c = function add(a, b){
+//     return a+b
+// }
+// console.log(c(30,20))
+
+// we can use functions in array and objects
+// we can use arrays in functions and objects
+// we can use objects in functions and arrays
+
+let ar = [1, "rollNo", function arrfun(){console.log('in array')}, {obj : "this is object"}]
+console.log(ar)
+// console.log(ar["rollNo"])
+// console.log(ar.arrfun())
+console.log(ar[3].obj)
+ar[2]()
