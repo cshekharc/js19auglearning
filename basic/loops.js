@@ -54,13 +54,11 @@ let arr =  [4, 10, "abc", true];
 let nameFound = false;
 
 for (let ar of arr) {
-    if (ar === 10) {
+    if (ar === 15) {
         console.log('name is there in list');
         nameFound = true;
         break;
     } else {
-        // No need to use else if for this scenario
-        // If ar is not equal to 10, it will reach here
         continue;
     }
 }
