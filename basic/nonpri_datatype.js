@@ -42,10 +42,10 @@
 // console.log(student)
 
 // functions  - 1. direct executions 2. return the logic or result
-// function hello(){
-//     console.log('Hello everyone')
-// }
-// hello()
+function hello(){
+    console.log('Hello everyone')
+}
+hello()
 // console.log(typeof hello)
 
 // function add(a, b){
