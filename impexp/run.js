@@ -4,6 +4,6 @@ import Child from "./child.js";
 // const parent = new Parent('Choudhari');
 // parent.myLastName()
 
-const child = new Child('shekhar', 'choudhari');
+const child = new Child('choudhari', 'shekhar')
 child.myName()
 child.myLastName()

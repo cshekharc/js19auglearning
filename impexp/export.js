@@ -13,8 +13,8 @@ export const arr = [3, 7, 10, 15]
 // let a = 'somestring' 
 // console.log(a);
 
-// function test(){
-//     console.log('will not be exported')
-// }
+export function test(){
+    console.log('will not be exported')
+}
 
 // test()
